@@ -1,0 +1,20 @@
+{
+  "name": "risu",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node Bot.js"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "mongose": "0.0.2-security",
+    "request": "2.81.0"
+  },
+  "devDependencies": {},
+  "author": "Shinizle",
+  "license": "ISC"
+}
