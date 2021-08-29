@@ -21,7 +21,7 @@ module.exports = {
                     var obj = JSON.parse(response.body);
                     console.log(obj.result);
                     if (obj.result.length == 0) {
-                        msg.channel.send("Crew ID tidak ditemukan.");
+                        msg.channel.send("Guild ID tidak ditemukan.");
                     } else {
                         var field = new Array();
                         Object.entries(obj.result).forEach(
@@ -82,7 +82,7 @@ module.exports = {
                         .setTitle('**List Pencarian**')
                         .setURL('https://game.granbluefantasy.jp')
                         .setAuthor(msg.author.username, 'https://gbf.wiki/images/0/03/Stamp148.png', 'https://game.granbluefantasy.jp')
-                        .setDescription('```Untuk mengecheck detail crew jalankan command: >crew ID id_crew```')
+                        .setDescription('```Untuk mengecheck detail crew jalankan command: >guild ID guild_id```')
                         .setThumbnail('https://cdn.discordapp.com/attachments/417293593514999820/881502489789222932/unknown.png')
                         .addFields(field)
                         .setTimestamp()
